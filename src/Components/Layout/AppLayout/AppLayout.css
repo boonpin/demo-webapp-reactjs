@@ -1,0 +1,43 @@
+.LayoutContainer {
+    min-height: 100vh;
+}
+
+.SideNavContainer {
+    width: 150px;
+    min-height: 100vh;
+    position: absolute;
+}
+
+.ContentContainer {
+    margin-left: 150px;
+}
+
+.Header {
+    height: 48px;
+}
+
+.Contents {
+    padding: 16px 40px;
+    border: solid green 1px;
+    min-height: 360px;
+}
+
+.Footer {
+    height: 24px;
+    text-align: center;
+    background-color: #004a8a1a;
+}
+
+.Header > div > div {
+    display: flex;
+}
+
+.HeaderCenter {
+    text-align: center;
+    padding-top: 20px !important;
+}
+
+.HeaderRight {
+    text-align: right;
+    padding-top: 20px !important;
+}
